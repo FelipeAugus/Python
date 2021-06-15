@@ -16,6 +16,7 @@ def triang(mat):
     return mat
 
 
+<<<<<<< Updated upstream
 ij = int(input('Tamanho da matriz: '))
 Mat = []
 
@@ -32,3 +33,7 @@ print('\nTriangular: ')
 triang(Mat)
 for i in range(ij):
     print(Mat[i])
+=======
+N = [[10, -8, 0],[0, -8, 4],[1, -1, -1]]
+print (triang(N))
+>>>>>>> Stashed changes
